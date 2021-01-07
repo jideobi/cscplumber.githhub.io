@@ -1,3 +1,12 @@
+.cont{
+  margin: auto;
+  width: 100%;
+  position: fixed;
+}
+.open  {
+
+  
+}
 .welcome_text {
     color: #092c41;
     height: auto;
@@ -6,6 +15,7 @@
     font:  "Open Sans", sans-serif;
     opacity: 0.6;
     background: rgb(212, 182, 187);
+    width: auto;
 }
 .header_contact {
     display: flex;
@@ -88,6 +98,7 @@
     color: wheat;
     text-align: center;
     font-weight: bold;
+    width: auto;
   }
   .message h4 {
       padding: 30px 10px 10px 10px;
@@ -143,8 +154,10 @@
   }
   
   #main {
+    color: white;
+    background: navy;
     transition: margin-left .5s;
-    padding: 16px;
+    padding-left: 22px;
   }
   
   @media screen and (max-height: 450px) {
