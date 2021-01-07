@@ -1,12 +1,12 @@
 .cont{
   margin: auto;
   width: 100%;
-  position: fixed;
+  position:relative;
 }
-.open  {
+/* .open  {
 
   
-}
+} */
 .welcome_text {
     color: #092c41;
     height: auto;
@@ -135,7 +135,7 @@
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -155,7 +155,7 @@
   
   #main {
     color: white;
-    background: navy;
+    background: #071013f0;
     transition: margin-left .5s;
     padding-left: 22px;
   }
@@ -163,5 +163,10 @@
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  #carousel-caption h3 {
+    color: orange;
+    font-weight:bolder;
   }
   
