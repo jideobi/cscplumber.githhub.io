@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSC PLUMBING</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="welcome_text">
+    <h6>We offer Plumbing service for residential, commercial and industrial clients.</h6>
+  </div>
+
+  <div id="header_contact">
+    <div class="header_contact">
+      <div style="padding-left: 8px; margin-left: 10%;">
+        <img src="image/LOGORED.png" height="140" width="200">
+      </div>
+
+      <div style="margin-left: 30%;">
+        <div style="display: -webkit-inline-flex; padding-top: 40px;">
+          <img src="image/1.png" height="30">
+          <div style="padding-left: 14px;">
+            <p style="font-weight: bolder; color:#7d7987 ;">EMAIL US </p>
+            <p style="font:15px/20px " Open Sans", sans-serif;">cscplumbing@gmail.com</p>
+
+          </div>
+        </div>
+
+
+        <div style="display: -webkit-inline-flex; padding-left: 30px; padding-top: 40px;">
+          <img src="image/2.png" height="35">
+          <div style="padding-left: 14px;">
+            <p style="font-weight: bolder; color:#7d7987 ;">CALL US NOW</p>
+            <p style="font-size: 17px; font-weight:bolder;">+1 (403) 977-1110</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">MENU</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">GALLERY</a>
+    <a href="#">CONTACT US</a>
+  </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  <img src="image/LOGORED.png" height="140"  width="200" style="margin:1%; text-align: center;"></span>
+  </div>
+
+  <div id="window_menu">
+
+    <div class="menu">
+      <a href="#">MENU</a>
+      <a href="#">ABOUT US</a>
+      <div class="dropdown">
+        <a>SERVICE</a>
+        <div class="dropdown-content">
+          <p>All services</p><br>
+          <hr>
+          <p>Plumbing service</p><br>
+          <hr>
+          <p>Drain cleaning & Repair</p><br>
+          <hr>
+          <p>Facuet and Leak Repair</p><br>
+        </div>
+      </div>
+      <a href="#">GALLERY</a>
+      <a href="#">CONTACT US</a>
+
+    </div>
+  </div>
+
+
+
+  <div style="background-image: url('rite-plumbing-nyc-banner-1.jpg'); background-repeat: no-repeat;">
+    <div class="message">
+
+      <p>we are experience company</p>
+
+      <h1>CSC PLUMBING SERVICE PROVIDER</h1>
+      <h2>CREATIVE & PROFESSIONAL</h2>
+
+      <h4><a href="#">VIEW PROJECTS</a></h4>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+    }
+
+    window.onload = function () {
+      if (window.innerWidth > 1100) {
+        document.getElementById('main').style.display = 'none';
+        document.getElementById('header_contact').style.display = 'block';
+        document.getElementById('window_menu').style.display = 'block';
+      } else {
+        document.getElementById('main').style.display = 'block';
+        document.getElementById('header_contact').style.display = 'none';
+        document.getElementById('window_menu').style.display = 'none';
+      }
+    }
+
+    window.onresize = function () {
+      if (window.innerWidth > 1100) {
+        document.getElementById('main').style.display = 'none';
+        document.getElementById('header_contact').style.display = 'block';
+        document.getElementById('window_menu').style.display = 'block';
+      } else {
+        document.getElementById('main').style.display = 'block';
+        document.getElementById('header_contact').style.display = 'none';
+        document.getElementById('window_menu').style.display = 'none';
+      }
+    } 
+  </script>
+
+</body>
+
+</html>
