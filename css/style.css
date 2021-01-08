@@ -169,4 +169,34 @@
     color: orange;
     font-weight:bolder;
   }
-  
+
+  /* ****************************************body********************** */
+
+  .index_abt {
+    text-align: center;
+  }
+
+  .index_abt p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #898989;
+    padding-left: 30px;
+    padding-top: 25px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .index_abt h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 800;
+    font-size: 1.625em;
+    color: #323232;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    line-height: 32px;
+    padding-right: 25px;
+    padding-top: 60px;
+  }
