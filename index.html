@@ -144,7 +144,7 @@
           <div class="item">
             <img src="image/second.jpg" style="height: 300px; width: 100%">
             <div id="carousel-caption" class="carousel-caption">
-              <h3>DRAIN CLEANING & PIPE BRUST</h3>
+              <h3>DRAIN CLEANING & PIPE BURST</h3>
               <p>WE SERVE YOU BETTER</p>
             </div>
           </div>
@@ -162,17 +162,38 @@
         </a>
       </div>
     </div>
-    
+    <div>
       <div class="index_abt">
         <h2>OUR SERVICES</h2>
         <p>
-          CSC PLUMBING & DRAIN CLEANING provide full service plumbing maintenance and repairs and clogged drain
-          cleaning, 24 hours a day,
+          CSC Plumbing & Drain Cleaning provide full service plumbing maintenance, repairs & clogged drain
+          cleaning 24 hours a day,
           including toilet repairs. Medicine hat <br>and surrounding areas plumbers offer residential and commercial
           plumbing services.
         </p>
       </div>
-    
+    </div>
+    <div id="window_serviceictures">
+      <div class="service_img"
+        style="display:flex ; padding-top: 30px; position:unset; margin: auto; width: fit-content;">
+        <div>
+          <img src="image/central.jpg" style="height: 200px; width: 335px; margin: auto;">
+          <h2>General installation</h2>
+        </div>
+        <div style="padding-left: 35px;">
+          <img src="image/imagegrid.jpg" style="height: 200px; width: 335px; margin: auto;">
+          <h2>Bathroom installation</h2>
+        </div>
+        <div style="padding-left: 35px;">
+          <img src="image/service2.jpg" style="height: 200px; width: 335px; margin: auto;">
+          <h2>Plumbing Maintenance</h2>
+        </div>
+      </div>
+    </div>
+
+
+
+
 
 
   </div>
@@ -219,6 +240,7 @@
         document.getElementById('mobiletext').style.display = 'block';
         document.getElementById('window_courasel').style.display = 'block';
         document.getElementById('car').style.display = 'none';
+        document.getElementById('window_serviceictures').style.display = 'block';
       } else {
         document.getElementById('main').style.display = 'block';
         document.getElementById('header_contact').style.display = 'none';
@@ -226,9 +248,10 @@
         document.getElementById('mobiletext').style.display = 'none';
         document.getElementById('window_courasel').style.display = 'none';
         document.getElementById('car').style.display = 'block';
+        document.getElementById('window_serviceictures').style.display = 'none';
       }
     }
-
+    
 
     window.onresize = function () {
       if (window.innerWidth > 1100) {
@@ -238,6 +261,7 @@
         document.getElementById('mobiletext').style.display = 'block';
         document.getElementById('window_courasel').style.display = 'block';
         document.getElementById('car').style.display = 'none';
+        document.getElementById('window_serviceictures').style.display = 'block';
       } else {
         document.getElementById('main').style.display = 'block';
         document.getElementById('header_contact').style.display = 'none';
@@ -245,6 +269,7 @@
         document.getElementById('mobiletext').style.display = 'none';
         document.getElementById('window_courasel').style.display = 'none';
         document.getElementById('car').style.display = 'block';
+        document.getElementById('window_serviceictures').style.display = 'none';
       }
     } 
   </script>
