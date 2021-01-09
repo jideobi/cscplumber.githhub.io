@@ -209,10 +209,12 @@
     width: auto;
     margin-top: 6%;
     margin-left: 12%;
-
   }
   .service_img h2 {
     font-size: 18px;
     text-align: center;
     font-weight: bolder;
+  } 
+  .mobile_service_img img {
+    display: flex;
   }
