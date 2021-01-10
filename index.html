@@ -89,7 +89,7 @@
 
 
     <div id="window_courasel">
-      <div style="background-image: url('imagegrid.jpg'); background-repeat:no-repeat; width: 100%; background-size: 1600px 1000px;">
+      <div style="background-image: url('imagegrid.jpg'); background-repeat:no-repeat; width: 100%; background-size: 100% 100%;">
         <div class="message">
 
           <p>we are experience company</p>
@@ -191,7 +191,22 @@
       </div>
     </div>
 
-
+    <div id="mobile_serviceictures">
+      <div class="container" style="padding-left: 30%">
+        <div style="float: ;">
+          <img src="image/central.jpg" style="height: 200%; width: 300px;">
+          <h2>General installation</h2>
+        </div>
+        <div style="left;">
+          <img src="image/ujuji.jpg" style="height: 200%; width: 300px; ">
+          <h2>Bathroom installation</h2>
+        </div>
+        <div style="clear: both; float: ;">
+          <img src="image/service2.jpg" style="height: 200%; width: 300px; ">
+          <h2>Plumbing Maintenance</h2>
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -230,7 +245,7 @@
     }
 
     window.onload = function () {
-      if (window.innerWidth > 1100) {
+      if (window.innerWidth > 800) {
         document.getElementById('main').style.display = 'none';
         document.getElementById('header_contact').style.display = 'block';
         document.getElementById('window_menu').style.display = 'block';
@@ -238,6 +253,7 @@
         document.getElementById('window_courasel').style.display = 'block';
         document.getElementById('car').style.display = 'none';
         document.getElementById('window_serviceictures').style.display = 'block';
+        document.getElementById('mobile_serviceictures').style.display = 'none';
       } else {
         document.getElementById('main').style.display = 'block';
         document.getElementById('header_contact').style.display = 'none';
@@ -246,12 +262,13 @@
         document.getElementById('window_courasel').style.display = 'none';
         document.getElementById('car').style.display = 'block';
         document.getElementById('window_serviceictures').style.display = 'none';
+        document.getElementById('mobile_serviceictures').style.display = 'block';
       }
     }
 
-
+    
     window.onresize = function () {
-      if (window.innerWidth > 1100) {
+      if (window.innerWidth > 800) {
         document.getElementById('main').style.display = 'none';
         document.getElementById('header_contact').style.display = 'block';
         document.getElementById('window_menu').style.display = 'block';
@@ -259,7 +276,9 @@
         document.getElementById('window_courasel').style.display = 'block';
         document.getElementById('car').style.display = 'none';
         document.getElementById('window_serviceictures').style.display = 'block';
+        document.getElementById('mobile_serviceictures').style.display = 'none';
       } else {
+        document.getElementById('main').style.display = 'none';
         document.getElementById('main').style.display = 'block';
         document.getElementById('header_contact').style.display = 'none';
         document.getElementById('window_menu').style.display = 'none';
@@ -267,8 +286,13 @@
         document.getElementById('window_courasel').style.display = 'none';
         document.getElementById('car').style.display = 'block';
         document.getElementById('window_serviceictures').style.display = 'none';
+        document.getElementById('mobile_serviceictures').style.display = 'block';
       }
     } 
+    
+
+
+    
   </script>
 
 
