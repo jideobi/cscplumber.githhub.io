@@ -216,7 +216,20 @@
     font-weight: bolder;
   } 
  .container h2 {
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   font-weight: bolder;
+  padding-right: 27%;
+ }
+ .container p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #898989;
+
+  padding-top: 25px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 500;
+  padding-right: 27% ;
  }
