@@ -215,6 +215,18 @@
     text-align: center;
     font-weight: bolder;
   } 
+  .service_img p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #898989;
+  
+    padding-top: 15px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+    padding-right: 7% ;
+  }
  .container h2 {
   font-size: 22px;
   text-align: center;
@@ -232,4 +244,7 @@
   text-align: center;
   font-weight: 500;
   padding-right: 7% ;
+ }
+ .we_are_deatails {
+   
  }
