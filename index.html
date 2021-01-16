@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -239,9 +240,49 @@
           </div>
         </div>
 
-        <!-- <div style="float: right;">
-        <img src="image/imagegrid.jpg" height="500px">
-      </div> -->
+
+      </div>
+    </div>
+    <div id="mobile_footer">
+      <div class="footer">
+        <h2>ABOUT</h2>
+        <P>CSC PLUMBING & DRAIN CLEANING provide full service plumbing maintenance and repairs and
+          clogged drain cleaning, 24 hours a day, including toilet repairs.
+          Medicine hat and surrounding areas plumbers offer residential and
+          commercial plumbing services that customers depend on for all of
+          their local plumbing needs.</P>
+        <aside style=" color: #8e8d8d; display: flex;">
+          <div style="padding-left: 3%; padding-top: 20px;">
+            <h5 style="color: plum;">OUR SERVICES</h5>
+            <li>Repair & Maintenance</li>
+            <li>installation</li>
+            <li>Kitchen Plumbing</li>
+            <li>Outside Plumbing</li>
+            <li>Drain cleaning & Repair</li>
+            <li>Facuet and Leak Repair</li>
+          </div>
+          <div style="padding-left: 13%; padding-top: 20px; text-decoration: none;">
+            <h5 style="color: plum;">QUICK LINKS</h5>
+            <a href="#">HOME</a><br>
+            <a href="#">ABOUT US</a><br>
+            <a href="#">CONTACT US</a><br>
+            <a href="#">GALLERY</a><br>
+            <a href="#">CONTACT US</a>
+          </div>
+        </aside>
+        <img src="image/foot.png">
+
+        <div style="text-align: center; padding-bottom: 20px;">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+
+        <div class="copyright">
+          &copy; Copyright "CSC Plumber" 2021. All rights reserved.
+        </div>
       </div>
     </div>
   </div>
@@ -291,6 +332,7 @@
         document.getElementById('window_serviceictures').style.display = 'block';
         document.getElementById('mobile_serviceictures').style.display = 'none';
         document.getElementById('best_service').style.display = 'none';
+        document.getElementById('mobile_footer').style.display = 'none';
       } else {
         document.getElementById('main').style.display = 'block';
         document.getElementById('header_contact').style.display = 'none';
@@ -301,6 +343,7 @@
         document.getElementById('window_serviceictures').style.display = 'none';
         document.getElementById('mobile_serviceictures').style.display = 'block';
         document.getElementById('best_service').style.display = 'block';
+        document.getElementById('mobile_footer').style.display = 'block';
       }
     }
 
@@ -316,6 +359,7 @@
         document.getElementById('window_serviceictures').style.display = 'block';
         document.getElementById('mobile_serviceictures').style.display = 'none';
         document.getElementById('best_service').style.display = 'none';
+        document.getElementById('mobile_footer').style.display = 'none';
       } else {
         document.getElementById('main').style.display = 'none';
         document.getElementById('main').style.display = 'block';
@@ -327,6 +371,7 @@
         document.getElementById('window_serviceictures').style.display = 'none';
         document.getElementById('mobile_serviceictures').style.display = 'block';
         document.getElementById('best_service').style.display = 'block';
+        document.getElementById('mobile_footer').style.display = 'block';
       }
     }
 
