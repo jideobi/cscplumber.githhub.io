@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSC PLUMBING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="cont">
+        <div id="mobiletext">
+            <div class="welcome_text">
+                <h6>We offer Plumbing service for residential, commercial and industrial clients.</h6>
+            </div>
+        </div>
+
+        <div id="header_contact">
+            <div class="header_contact">
+                <div style="padding-left: 8px; margin-left: 10%;">
+                    <img src="image/LOGORED.png" height="140" width="200">
+                </div>
+
+                <div style="margin-left: 30%;">
+                    <div style="display: -webkit-inline-flex; padding-top: 40px;">
+                        <img src="image/1.png" height="30">
+                        <div style="padding-left: 14px;">
+                            <p style="font-weight: bolder; color:#7d7987 ;">EMAIL US </p>
+                            <p style="font:15px/20px " Open Sans", sans-serif;">cscplumbing@gmail.com</p>
+
+                        </div>
+                    </div>
+
+
+                    <div style="display: -webkit-inline-flex; padding-left: 30px; padding-top: 40px;">
+                        <img src="image/2.png" height="35">
+                        <div style="padding-left: 14px;">
+                            <p style="font-weight: bolder; color:#7d7987 ;">CALL US NOW</p>
+                            <p style="font-size: 17px; font-weight:bolder;">+1 (403) 977-1110</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT US</a>
+            <button class="dropdown-btn">SERVICE
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+
+        </div>
+
+        <div id="main">
+            <div class="open">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                <img src="image/LOGORED.png" height="80" width="200" style="margin:2%; text-align: center;">
+            </div>
+        </div>
+
+        <div id="window_menu">
+
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="#">ABOUT &nbsp; US</a>
+                <div class="dropdown">
+                    <a>SERVICE</a>
+                    <div class="dropdown-content">
+                        <p>All services</p><br>
+                        <hr>
+                        <p>Plumbing service</p><br>
+                        <hr>
+                        <p>Drain cleaning & Repair</p><br>
+                        <hr>
+                        <p>Facuet and Leak Repair</p><br>
+                    </div>
+                </div>
+                <a href="#">GALLERY</a>
+                <a href="#">CONTACT US</a>
+
+            </div>
+        </div>
+
+
+        <div id="mobile_footer">
+            <div class="footer">
+                <h2>ABOUT</h2>
+                <P>CSC PLUMBING & DRAIN CLEANING provide full service plumbing maintenance and repairs and
+                    clogged drain cleaning, 24 hours a day, including toilet repairs.
+                    Medicine hat and surrounding areas plumbers offer residential and
+                    commercial plumbing services that customers depend on for all of
+                    their local plumbing needs.</P>
+                <aside style=" color: #8e8d8d; display: flex;">
+                    <div style="padding-left: 3%; padding-top: 20px;">
+                        <h5 style="color: plum;">OUR SERVICES</h5>
+                        <li>Repair & Maintenance</li>
+                        <li>installation</li>
+                        <li>Kitchen Plumbing</li>
+                        <li>Outside Plumbing</li>
+                        <li>Drain cleaning & Repair</li>
+                        <li>Facuet and Leak Repair</li>
+                    </div>
+                    <div style="padding-left: 13%; padding-top: 20px; text-decoration: none;">
+                        <h5 style="color: plum;">QUICK LINKS</h5>
+                        <a href="#">HOME</a><br>
+                        <a href="#">ABOUT US</a><br>
+                        <a href="#">CONTACT US</a><br>
+                        <a href="#">GALLERY</a><br>
+                        <a href="#">CONTACT US</a>
+                    </div>
+                </aside>
+                <img src="image/foot.png">
+
+                <div style="text-align: center; padding-bottom: 20px;">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+
+                <div class="copyright">
+                    &copy; Copyright "CSC Plumber" 2021. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            // document.getElementById("main").style.marginLeft = "250px";
+            // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            // document.getElementById("main").style.marginLeft = "0";
+            // document.body.style.backgroundColor = "white";
+        }
+
+        window.onload = function () {
+            if (window.innerWidth > 800) {
+                document.getElementById('main').style.display = 'none';
+                document.getElementById('header_contact').style.display = 'block';
+                document.getElementById('window_menu').style.display = 'block';
+                document.getElementById('mobiletext').style.display = 'block';
+                document.getElementById('window_courasel').style.display = 'block';
+                document.getElementById('car').style.display = 'none';
+                document.getElementById('window_serviceictures').style.display = 'block';
+                document.getElementById('mobile_serviceictures').style.display = 'none';
+                document.getElementById('best_service').style.display = 'none';
+                document.getElementById('mobile_footer').style.display = 'none';
+            } else {
+                document.getElementById('main').style.display = 'block';
+                document.getElementById('header_contact').style.display = 'none';
+                document.getElementById('window_menu').style.display = 'none';
+                document.getElementById('mobiletext').style.display = 'none';
+                document.getElementById('window_courasel').style.display = 'none';
+                document.getElementById('car').style.display = 'block';
+                document.getElementById('window_serviceictures').style.display = 'none';
+                document.getElementById('mobile_serviceictures').style.display = 'block';
+                document.getElementById('best_service').style.display = 'block';
+                document.getElementById('mobile_footer').style.display = 'block';
+            }
+        }
+
+
+        window.onresize = function () {
+            if (window.innerWidth > 800) {
+                document.getElementById('main').style.display = 'none';
+                document.getElementById('header_contact').style.display = 'block';
+                document.getElementById('window_menu').style.display = 'block';
+                document.getElementById('mobiletext').style.display = 'block';
+                document.getElementById('window_courasel').style.display = 'block';
+                document.getElementById('car').style.display = 'none';
+                document.getElementById('window_serviceictures').style.display = 'block';
+                document.getElementById('mobile_serviceictures').style.display = 'none';
+                document.getElementById('best_service').style.display = 'none';
+                document.getElementById('mobile_footer').style.display = 'none';
+            } else {
+                document.getElementById('main').style.display = 'none';
+                document.getElementById('main').style.display = 'block';
+                document.getElementById('header_contact').style.display = 'none';
+                document.getElementById('window_menu').style.display = 'none';
+                document.getElementById('mobiletext').style.display = 'none';
+                document.getElementById('window_courasel').style.display = 'none';
+                document.getElementById('car').style.display = 'block';
+                document.getElementById('window_serviceictures').style.display = 'none';
+                document.getElementById('mobile_serviceictures').style.display = 'block';
+                document.getElementById('best_service').style.display = 'block';
+                document.getElementById('mobile_footer').style.display = 'block';
+            }
+        }
+
+
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

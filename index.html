@@ -53,9 +53,18 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">HOME</a>
-      <a href="#">ABOUT US</a>
-      <a href="#">GALLERY</a>
-      <a href="#">CONTACT US</a>
+      <a href="about.html">ABOUT US</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT US</a>
+      <button class="dropdown-btn">SERVICE
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+
     </div>
 
     <div id="main">
@@ -206,13 +215,15 @@
 
         <img src="image/central.jpg" style="height: 200%; width: 90%;">
         <h2>General installation</h2>
-        <p>Our mission is to provide homes across the nation with the best plumbing installation
+        <p style="padding-bottom: 60px;">Our mission is to provide homes across the nation with the best plumbing
+          installation
           through our teams of expert plumbers.<br>Whether you need a simple faucet installation or piping installed for
           a new system</p>
 
         <img src="image/ujuji.jpg" style="height: 200%; width: 90%; ">
         <h2>clogged drain cleaning</h2>
-        <p>We have the equipment and expertise to unclog and clear your drain from the most extreme and deep drain
+        <p style="padding-bottom: 60px;">We have the equipment and expertise to unclog and clear your drain from the
+          most extreme and deep drain
           clogs.</p>
 
 
@@ -239,18 +250,29 @@
             <h4>This website is Bella approved</h4>
           </div>
         </div>
+      </div>
 
+      <div class="expert">
+        <h2>WE ARE EXPERT IN <aside style="color: #09a3d5;font-family:cursive;">PLUMBING</aside>
+        </h2>
+        <h3>We pride ourselves on customer satisfaction.</h43>
+          <p>Our Seattle plumbing service technicians are prompt, skilled,
+            neatly uniformed, friendly and licensed professionals. The combined talents
+            of our staff encompass all aspects of residential plumbing service, installation and repair.
+            Whether you are looking for Seattle,
+            WA plumbing services, or in the surrounding area, give us a call.</p>
+          <div style="text-align: center;">
+            <button>VIEW PROJECTS</button>
+          </div>
 
       </div>
+
     </div>
     <div id="mobile_footer">
       <div class="footer">
         <h2>ABOUT</h2>
         <P>CSC PLUMBING & DRAIN CLEANING provide full service plumbing maintenance and repairs and
-          clogged drain cleaning, 24 hours a day, including toilet repairs.
-          Medicine hat and surrounding areas plumbers offer residential and
-          commercial plumbing services that customers depend on for all of
-          their local plumbing needs.</P>
+          clogged drain cleaning, 24 hours a day.</P>
         <aside style=" color: #8e8d8d; display: flex;">
           <div style="padding-left: 3%; padding-top: 20px;">
             <h5 style="color: plum;">OUR SERVICES</h5>
@@ -376,7 +398,20 @@
     }
 
 
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
 
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
 
   </script>
 
